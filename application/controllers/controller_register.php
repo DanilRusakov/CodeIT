@@ -16,7 +16,7 @@ class Controller_register extends Controller
 			}
 			else{
 				$data = $this->model->registration($_POST);
-				$data['registered'] = "<a href='/login'>go to the registration page</a>";
+				$data['registered'] = "<a href='/login'>go to the login page</a>";
 			}
 			
 		}
